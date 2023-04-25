@@ -9,16 +9,33 @@
   })(window,document,'script','dataLayer','GTM-5VXBLSL');</script>
   <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
+    <script src="javascript.js"></script>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-    <li><a href="recipes/Afritada.html">Chicken Afritada</a></li>
-    <li><a href="recipes/Kaldereta.html">Beef Kaldereta</a></li>
-    <li><a href="recipes/Karekare.html">Kare-Kare</a></li>
-    <li><a href="recipes/Mechado.html">Beef Mechado</a></li>
-    <li><a href="recipes/Menudo.html">Pork Menudo</a></li>
-    </ul>
+    <div class="header">
+      <div class="intro">
+        <h1 class="section-header">Odin Recipes</h1>
+        <p>Timeless Filipino recipes for celebrations. Try out a specific recipe, or click the button below to go to a random recipe!</p>
+        <button type="button" onclick="randomlink()">Random Recipe</button>
+      </div>
+      <div class="img"><img height="300px" src="images/Handaan.jpeg"></div>
+    </div>
+    <h1 class="recipe-header">Our Recipes</h1>
+    <div class="container">
+      <div><img class="cropped" src="images/Afritada.jpeg"></div>
+      <div><img class="cropped" src="images/Kaldereta.jpeg"></div>
+      <div><img class="cropped" src="images/Karekare.jpeg"></div>
+      <div><img class="cropped" src="images/Mechado.jpeg"></div>
+      <div><img class="cropped" src="images/Menudo.jpeg"></div>
+    </div>
+    <div class="text">
+      <div><a href="recipes/Afritada.html">Chicken Afritada</a></div>
+      <div><a href="recipes/Kaldereta.html">Beef Kaldereta</a></div>
+      <div><a href="recipes/Karekare.html">Kare-Kare</a></div>
+      <div><a href="recipes/Mechado.html">Beef Mechado</a></div>
+      <div><a href="recipes/Menudo.html">Pork Menudo</a></div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,78 @@
+body {
+    margin: 0px 50px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  }
+.header {
+    display: flex;
+  }
+.header div{
+    flex: 1;
+    margin: 0px 0px;
+    background-color: #1f2937;
+    height: 300px;
+  }
+  .intro{
+    flex: 1;
+    padding: 50px 10px 50px 10%;
+    text-align: left;
+  }
+  .img{
+    flex: 1;
+    padding: 50px 10% 50px 10px;
+    text-align: left;
+  }
+  p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    padding: 5px 10px;
+  }
+.section-header {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  }
+.recipe-header {
+  font-size: 36x;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+  }
+.container {
+    display: flex;
+  }
+.container div{
+    flex: 1;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 15px;
+    height: 200px;
+    width: 150px
+  }
+  .cropped {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    object-position: 50% 50%; 
+    }
+.text {
+    display: flex;
+  }
+.text div{
+    border-radius: 25px;
+    padding: 20px;
+    height: 200px;
+    flex: 1;
+    text-align: center;
+  }
